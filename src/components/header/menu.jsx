@@ -1,7 +1,7 @@
 const Menu = ({ menuList }) => {
   return (
-    <div>
-      <ul className="flex">
+    <div className="items-center flex">
+      <ul className="flex gap-10 items-center">
         {menuList.map((menu) => (
           <li>
             <a href={menu.link}>{menu.label}</a>
