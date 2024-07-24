@@ -1,10 +1,4 @@
-const menuList = [
-  { label: "Home", link: "/" },
-  { label: "About", link: "/#about" },
-  { label: "Work", link: "/#work" },
-  { label: "Contact", link: "/#contact" },
-];
-const Menu = () => {
+const Menu = ({ menuList }) => {
   return (
     <div>
       <ul className="flex">

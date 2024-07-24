@@ -5,7 +5,7 @@ const NavButtons = () => {
     <div className="flex border-l border-gray-400">
       <MdOutlineLightMode />
       <button className="py-[6px] px-4 bg-black text-white rounded-xl">
-        DOWNload CV
+        Download CV
       </button>
     </div>
   );
