@@ -1,6 +1,8 @@
 import ExperienceCard from "@/components/experiences";
 import Experiences from "@/components/experiences";
 import Section1 from "@/components/sections/section1";
+import Section2 from "@/components/sections/section2";
+import Section3 from "@/components/sections/section3";
 
 const experiences = [
   {
@@ -23,6 +25,8 @@ export default function Home() {
   return (
     <main>
       <Section1 />
+      <Section2 />
+      <Section3 />
       {experiences.map(({ title, companyLogo, jobRoles }) => (
         <ExperienceCard
           title={title}
