@@ -1,40 +1,18 @@
-import ExperienceCard from "@/components/experiences";
 import Experiences from "@/components/experiences";
 import Section1 from "@/components/sections/section1";
 import Section2 from "@/components/sections/section2";
 import Section3 from "@/components/sections/section3";
+import Section4 from "@/components/sections/section4";
+import Section5 from "@/components/sections/section5";
 
-const experiences = [
-  {
-    title: "Senio",
-    companyLogo: "/img.png",
-    jobRoles: ["Devops", "Frontend", "Fullstack"],
-  },
-  {
-    title: "Junior",
-    companyLogo: "/img.png",
-    jobRoles: ["Devops", "Frontend", "Fullstack"],
-  },
-  {
-    title: "Senio",
-    companyLogo: "/img.png",
-    jobRoles: ["Devops", "Frontend", "Fullstack"],
-  },
-];
 export default function Home() {
   return (
     <main>
       <Section1 />
       <Section2 />
       <Section3 />
-      {experiences.map(({ title, companyLogo, jobRoles }) => (
-        <ExperienceCard
-          title={title}
-          companyLogo={companyLogo}
-          jobRoles={jobRoles}
-        />
-      ))}
-
+      <Section4 />
+      <Section5 />
       <div></div>
     </main>
   );

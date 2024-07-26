@@ -5,7 +5,7 @@ const Company = ({ companyList }) => {
         {companyList.map((company) => (
           <div className="flex flex-col items-center">
             <img src={company.logo} alt="logo" />
-            <div>{company.label}</div>
+            <div className="mt-2">{company.label}</div>
           </div>
         ))}
       </div>
