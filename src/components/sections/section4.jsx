@@ -37,9 +37,9 @@ const experiences = [
 
 const Section4 = () => {
   return (
-    <section className="px-[400px] py-20 bg-[#F9FAFB] ">
+    <section className="px-[400px] py-20 bg-[#F9FAFB] dark:bg-[#111827] ">
       <SectionHeader head="Experience" />
-      <h3 className="text-center text-gray-600 text-[20px]">
+      <h3 className="text-center text-gray-600 text-[20px] dark:text-[#D1D5DB]">
         Here is a quick summary of my most recent experiences:
       </h3>
       {experiences.map(({ title, companyLogo, jobRoles, jobDate }) => (

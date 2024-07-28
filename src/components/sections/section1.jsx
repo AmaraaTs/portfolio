@@ -36,7 +36,7 @@ const Section1 = () => {
           alt="photo"
           height={200}
           width={200}
-          className="shadow-[40px_40px_#E8E8E8]"
+          className="shadow-[40px_40px_#E8E8E8] dark:shadow-[40px_40px_#374151]"
         />
       </div>
     </section>

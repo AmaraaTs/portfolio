@@ -3,20 +3,23 @@ import SectionHeader from "./section-headers";
 
 const Section2 = () => {
   return (
-    <section className="bg-[#F9FAFB] px-[400px] py-20 ">
+    <section
+      className="bg-[#F9FAFB] dark:bg-[#111827] px-[400px] py-20 "
+      id="about"
+    >
       <SectionHeader head="About me" />
-      <div className="flex justify-between items-center text-[#4B5563] leading-6 text-[16px]">
+      <div className="flex justify-between items-center text-[#4B5563]  leading-6 text-[16px]">
         <div className="w-[584px]">
           <img
             src="/images/luffy.jpg"
             alt="photo"
             height={300}
             width={300}
-            className="shadow-[-40px_40px_#E8E8E8]"
+            className="shadow-[-40px_40px_#E8E8E8] dark:shadow-[-40px_40px_#374151]"
           />
         </div>
         <div className="w-[584px]">
-          <h3 className="text-[30px] font-bold text-black leading-9">
+          <h3 className="text-[30px] font-bold text-black leading-9  dark:text-[#F9FAFB]">
             Curious about me? Here you have it:
           </h3>
           <p className="mt-4">
