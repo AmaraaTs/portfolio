@@ -1,8 +1,14 @@
 const sectionHeader = { Header: "About" };
 import SectionHeader from "./section-headers";
+import { motion } from "framer-motion";
 
 const Section2 = () => {
   return (
+    // <motion.div
+    //   initial={{ opacity: 0, y: 20 }}
+    //   animate={{ opacity: 1, y: 0 }}
+    //   transition={{ duration: 0.5 }}
+    // >
     <section
       className="bg-[#F9FAFB] dark:bg-[#111827] px-[400px] py-20 "
       id="about"
@@ -53,6 +59,7 @@ const Section2 = () => {
         </div>
       </div>
     </section>
+    // {/* </motion.div> */}
   );
 };
 
