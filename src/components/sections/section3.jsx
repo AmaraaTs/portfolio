@@ -22,7 +22,7 @@ const companyList = [
 
 const Section3 = () => {
   return (
-    <section className="px-[400px] py-20 work">
+    <section id="skill" className="px-[400px] py-20 work">
       <SectionHeader head="Skills" />
       <h3 className="text-center text-gray-600 text-[20px] mb-12">
         The skills, tools and technologies I am really good at:
