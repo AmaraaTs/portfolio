@@ -10,7 +10,7 @@ const menuList = [
 
 const NavSection = () => {
   return (
-    <div className="flex gap-10">
+    <div className="gap-10 hidden md:flex">
       <Menu menuList={menuList} />
 
       <NavButtons />
